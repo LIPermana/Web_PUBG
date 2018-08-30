@@ -1,0 +1,128 @@
+body{
+	background-color: black;
+	margin: 0;
+	padding: 0;
+	font-family: arial;
+}
+
+/*------------ Search ------------*/
+
+.search{
+	float: left;
+	padding-left: 30px;
+	padding-top: 30px;
+	margin: 0px;
+}
+
+.searchbutton{
+	float: left;
+	width: 40px;
+	height: 40px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	background-color: #FFA500;
+}
+
+.search img{
+	width: 28px;
+	margin: 5px;
+}
+
+input{
+	border: 0;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	float: left;
+	width: 300px;
+	height: 40px; 
+}
+
+/*------------ Navigation Bar ------------*/
+
+.nav ul{
+	float: left;
+	list-style-type: none;
+	margin: 45px;
+	margin-left: 200px;
+}
+
+.nav ul li{
+	display: inline;
+	padding: 25px;
+}
+
+.nav ul a{		
+	text-decoration: none;
+	color: #FFA500;
+	font-weight: bold;
+	display: inline;
+}
+
+.nav img{
+	float: left;
+	margin-left: 130px;
+	width: 100px;
+}
+
+/*---------- left navigation bar ------------*/
+
+.miring{
+	float: left;
+	height: 650px;
+	width: 100px;
+	clear: left;
+	/*background-color: red;*/
+}
+
+.miring ul {
+	list-style: none;
+	text-align: center;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	/*background-color: blue;*/
+}
+
+.miring ul li {
+	/*background-color: green;*/
+	text-align: center;
+	margin: 120px -150px;
+	padding: 20px;
+	transform: rotate(-90deg);
+}
+
+.miring ul a {
+	/*background-color: white;*/
+	height: 100px;
+	padding: 15px 5px;
+	text-decoration: none;
+	font-weight: bold;
+	color: #FFA500;
+	font-weight: bold;
+}
+
+/*------------- Gambar 1 -----------*/
+
+#gambar1{
+	float: left;
+	width: 646px;
+}
+/*#ellipse{
+	float: left;
+	width: 500px;
+}*/
+
+/*----------- judul -----------*/
+
+.head{
+	float: left;
+	background-color: grey;
+	width: 773px;
+	height: 650px;
+}
+
+.head img{
+	float: left;
+	margin: 0 auto;
+	width: 600px;
+}
