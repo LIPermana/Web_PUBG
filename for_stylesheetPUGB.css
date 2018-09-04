@@ -5,6 +5,22 @@ body{
 	font-family: arial;
 }
 
+.header{
+	position: relative;
+	height: 760px;
+}
+
+/*------------ header kiri -----------*/
+
+.headerkiri{
+	float:left;
+	position: absolute;
+	left: 0;
+	height: 100%
+	width: 40%
+	z-index: -1;
+}
+
 /*------------ Search ------------*/
 
 .search{
@@ -34,34 +50,7 @@ input{
 	border-bottom-right-radius: 5px;
 	float: left;
 	width: 300px;
-	height: 40px; 
-}
-
-/*------------ Navigation Bar ------------*/
-
-.nav ul{
-	float: left;
-	list-style-type: none;
-	margin: 45px;
-	margin-left: 200px;
-}
-
-.nav ul li{
-	display: inline;
-	padding: 25px;
-}
-
-.nav ul a{		
-	text-decoration: none;
-	color: #FFA500;
-	font-weight: bold;
-	display: inline;
-}
-
-.nav img{
-	float: left;
-	margin-left: 130px;
-	width: 100px;
+	height: 40px;
 }
 
 /*---------- left navigation bar ------------*/
@@ -104,25 +93,181 @@ input{
 /*------------- Gambar 1 -----------*/
 
 #gambar1{
-	float: left;
-	width: 646px;
+	position: absolute;
+	left: 100px;
+	top: 55px;
+	width: 700px;
 }
-/*#ellipse{
-	float: left;
-	width: 500px;
-}*/
+#ellipse{
+	position: absolute;
+	width: 450px;
+	left: 385px;
+	top: 180px;
+	z-index: -1;
+}
+
+/*---------- header kanan --------*/
+
+.headerkanan{
+	position: relative;
+	margin: 0;
+	padding: 0;
+	float: right;
+	width: 60%;
+	height: 759px;
+	background-color: rgba(0,0,0,0.5);
+}
 
 /*----------- judul -----------*/
-
 .head{
-	float: left;
-	background-color: grey;
-	width: 773px;
-	height: 650px;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(70,70,70,0.4);
 }
 
-.head img{
+/*------------ Navigation Bar ------------*/
+
+.nav ul{
 	float: left;
-	margin: 0 auto;
+	list-style-type: none;
+	margin: 45px;
+	margin-left: 0px;
+}
+
+.nav ul li{
+	display: inline;
+	padding: 25px;
+}
+
+.nav ul a{
+	text-decoration: none;
+	color: #FFA500;
+	font-weight: bold;
+	display: inline;
+}
+
+.nav img{
+	float: left;
+	margin-left: 130px;
+	width: 100px;
+}
+/*----------------------*/
+
+.judul{
+	position: absolute;
+	left: 0;
+	top: 35%;
+	width: 100%;
+	text-align: center;
+}
+
+.judul img{
 	width: 600px;
+}
+
+#learn{
+	margin: 40px;
+}
+
+.judul a{
+	border-radius: 25px;
+	text-decoration: none;
+	font-weight: bold;
+	color: black;
+	padding: 15px;
+	background-color: #FFA500;
+}
+
+.system{
+	position: absolute;
+	bottom: 8px;
+  right: 16px;
+}
+
+.system a{
+	padding-bottom: 50px;
+	color: #FFA500;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.system img{
+	width: 20px;
+}
+
+/*------------- Content ------------*/
+
+content{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 760px;
+	background-image: url('src/B2.jpg');
+	background-size: 100%;
+}
+
+.contentkiri{
+	float: left;
+	margin: 0;
+	padding: 0;
+	width: 60%;
+	height: 759px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.deskripsi{
+	position: relative;
+	margin: 0;
+	width: 100%;
+	height: 100%;
+	background-color: rgba(70,70,70,0.4);
+}
+
+.des{
+	position: absolute;
+	left: 0;
+	top: 35%;
+	width: 100%;
+	text-align: center;
+	background-color: red;
+}
+
+.foraligning{
+	position: absolute;
+	left: 80px;
+}
+
+.deskripsi h2{
+	margin: 0;
+	color: #FFA500;
+	font-size: 30px;
+	text-align: left;
+}
+
+.deskripsi p{
+	width: 700px;
+	font-size: 25px;
+	text-align: justify;
+	font-weight: bold;
+	color: #fff;
+}
+
+#view{
+	margin: 45px;
+}
+
+.deskripsi a{
+	border-radius: 25px;
+	background-color: #FFA500;
+	padding: 15px;
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.contentkanan img{
+	float: left;
+	height: 759px;
+	z-index: 1;
 }
